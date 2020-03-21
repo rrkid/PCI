@@ -2,7 +2,7 @@
 
 |Branch|Build status|Deploy status|
 |:--------|:--------:|--------:|
-|master| | **TODO**|
+|master| [![Build Status](https://travis-ci.com/rrkid/PCI.svg?branch=master)](https://travis-ci.com/github/rrkid/PCI)| **TODO**|
 |develop| | **TODO**|
 
 - [Travis CI](https://travis-ci.com)
