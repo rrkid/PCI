@@ -1,4 +1,8 @@
-import src.string_parser as string_parser
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.realpath(__file__)) + "/../src")
+
+import string_parser
 
 uppercase_string = "TEST STRING TEST STRING"
 uppercase_string_res = "test string test string"
