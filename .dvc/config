@@ -1,4 +1,0 @@
-[core]
-    remote = pci_remote
-['remote "pci_remote"']
-    url = /tmp/dvc-storage
