@@ -1,4 +1,6 @@
 .ipynb_checkpoints
 
 .DS_Store
-/tmp
+/tmp/data
+/tmp/prepared_data
+/src/__pycache__
