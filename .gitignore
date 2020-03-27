@@ -1,3 +1,8 @@
 .ipynb_checkpoints
 
 .DS_Store
+/tmp/data
+/tmp/prepared_data
+/models/fitted_models
+/models/vectorizers
+/src/__pycache__

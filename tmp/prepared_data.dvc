@@ -1,0 +1,7 @@
+md5: 7823cbedf048aec36f2d96c6d7bff246
+outs:
+- md5: 79756eab9d8ba64ab5f3a241766c550e.dir
+  path: prepared_data
+  cache: true
+  metric: false
+  persist: false

@@ -1,4 +1,6 @@
 [core]
-    remote = pci_remote
-['remote "pci_remote"']
-    url = /tmp/dvc-storage
+    remote = mygdfolder
+['remote "mygdfolder"']
+    url = gdrive://root/ProjectPCI
+    gdrive_client_id = 897139746171-j6drnq994a458rdeo6usgo82862ppt8c.apps.googleusercontent.com
+    gdrive_client_secret = azgegVtcCfD5vVUnsFdKIoiQ
