@@ -31,7 +31,7 @@ all_mixed = "TEST  !  '''' ' ' ' ' ' ' string          for testS    !!! "
 all_mixed_res = "test string for tests"
 
 cyrillic_all_mixed = "тест строКА     !!! с     ....   кириЛЛицей !!       %%       "
-cyrillic_all_mixed_res = "тест строка кириллицей"
+cyrillic_all_mixed_res = ""
 
 if (string_parser.prepareString(uppercase_string) == uppercase_string_res):
     print("TEST 1/11 - OK")
