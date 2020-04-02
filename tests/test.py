@@ -87,3 +87,6 @@ if (string_parser.prepareString(cyrillic_all_mixed) == cyrillic_all_mixed_res):
     print("TEST 11/11 - OK")
 else:
     print("TEST 11/11 - Failed")
+
+if __name__ == '__main__':
+     pass
