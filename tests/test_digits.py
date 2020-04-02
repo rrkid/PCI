@@ -80,3 +80,6 @@ if (string_parser.prepareString(digits_delimeters) == digits_delimeters_res):
     print("TEST 10/10 - OK")
 else:
     print("TEST 10/10 - Failed")
+
+if __name__ == '__main__':
+     pass
