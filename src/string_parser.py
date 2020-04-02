@@ -15,3 +15,4 @@ def prepareString(text):
         if t not in russian_stopwords and t != ' ' and t != '':
             tok.append(t)
     return ' '.join(tok)
+
