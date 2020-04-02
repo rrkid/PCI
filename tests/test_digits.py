@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.append(os.path.dirname(os.path.realpath(__file__)) + "/../src")
 
-import string_parser_pro
+import string_parser_pro as string_parser
 
 uppercase_string = "ОДИН ДВА ТРИ STRING"
 uppercase_string_res = "1 2 3 string"
