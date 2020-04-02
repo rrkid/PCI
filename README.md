@@ -3,7 +3,7 @@
 |Branch|Build status|Model version|
 |:--------|:--------:|--------:|
 |master| [![Build Status](https://travis-ci.com/rrkid/PCI.svg?branch=master)](https://travis-ci.com/github/rrkid/PCI)| Model_1.1|
-|develop|[![Build Status](https://travis-ci.com/rrkid/PCI.svg?branch=develop)](https://travis-ci.com/github/rrkid/PCI) | Model_1.1|
+|develop|[![Build Status](https://travis-ci.com/rrkid/PCI.svg?branch=develop)](https://travis-ci.com/github/rrkid/PCI) | **Developing**|
 
 - [Travis CI](https://travis-ci.com)
 
