@@ -1,9 +1,9 @@
 ## Модель для распознавания контактной информации в тексте
 
-|Branch|Build status|Deploy status|
+|Branch|Build status|Model version|
 |:--------|:--------:|--------:|
-|master| [![Build Status](https://travis-ci.com/rrkid/PCI.svg?branch=master)](https://travis-ci.com/github/rrkid/PCI)| **TODO**|
-|develop|[![Build Status](https://travis-ci.com/rrkid/PCI.svg?branch=develop)](https://travis-ci.com/github/rrkid/PCI) | **TODO**|
+|master| [![Build Status](https://travis-ci.com/rrkid/PCI.svg?branch=master)](https://travis-ci.com/github/rrkid/PCI)| Model_1.1|
+|develop|[![Build Status](https://travis-ci.com/rrkid/PCI.svg?branch=develop)](https://travis-ci.com/github/rrkid/PCI) | Model_1.1|
 
 - [Travis CI](https://travis-ci.com)
 
