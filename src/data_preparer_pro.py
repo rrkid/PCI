@@ -11,5 +11,5 @@ df_val = pd.read_csv('../tmp/data/val.csv')
 df_val.description = df_val.description.apply(string_parser_pro.prepareString)
 df_train.description = df_train.description.apply(string_parser_pro.prepareString)
 
-df_val.to_csv('../tmp/prepared_data/prepared_val_pro.csv', index = False)
-df_train.to_csv('../tmp/prepared_data/prepared_train_pro.csv', index = False)
+df_val.to_csv('../tmp/prepared_data_pro/prepared_val_pro.csv', index = False)
+df_train.to_csv('../tmp/prepared_data_pro/prepared_train_pro.csv', index = False)
