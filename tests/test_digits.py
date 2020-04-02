@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.append(os.path.dirname(os.path.realpath(__file__)) + "/../src")
 
-import string_parser
+import string_parser_pro
 
 uppercase_string = "ОДИН ДВА ТРИ STRING"
 uppercase_string_res = "1 2 3 string"
@@ -80,7 +80,3 @@ if (string_parser.prepareString(digits_delimeters) == digits_delimeters_res):
     print("TEST 10/10 - OK")
 else:
     print("TEST 10/10 - Failed")
-
-
-if __name__ == '__main__':
-    pass
