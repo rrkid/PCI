@@ -1,3 +1,9 @@
+"""@package data_preparer_pro
+Документация для модуля data_preparer_pro (усовершенствованный модуль data_preparer)
+ 
+Модуль используется для обработки наборов данных. Экстраполяция действия модуля string_parser_pro
+"""
+
 import pandas as pd
 import sys
 import os
