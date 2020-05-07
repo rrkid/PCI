@@ -61,11 +61,25 @@ def get_hour(df):
 
 
 def make_logistic(df):
+    """Документация для функции make_logistic
+
+    Используется для перестановки ответов (изменение таргетов)
+ 
+    Входные данные - набор данных для преобразования
+    Выходные данные - набор данных с заменными нулями (на -1)
+    """
     df['is_bad'] = df['is_bad'].map({1: 1, 0: -1})
     return df
 
 
 def to_vw_format(text, subcat, cat, price, region, city, hour, label=None):
+    """Документация для функции to_vw_format
+
+    Используется для приведения набора данных в формат vowalwabbit
+ 
+    Входные данные - набор данных для приведения к необходимому формату
+    Выходные данные - данные в формате vowalwabbit
+    """
     text = text.lower()
     table = str.maketrans({key: ' ' for key in string.punctuation + '\n'})
 
@@ -81,6 +95,13 @@ def to_vw_format(text, subcat, cat, price, region, city, hour, label=None):
 
 
 def find_start_end(text):
+    """Документация для функции find_start_end
+
+    Используется для поиска позиции контактной информации
+ 
+    Входные данные - набор данных, в котором будет производиться поиск
+    Выходные данные - найденная позиция
+    """
     m = re.search(CONTACT, text)
     if m:
         return m.start(), m.end()

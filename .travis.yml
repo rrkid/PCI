@@ -16,7 +16,7 @@ addons:
 script:
  - python tests/test.py
  - python tests/test_digits.py
- - if [ "$TRAVIS_BRANCH" = "tests_preparations" ]; then doxygen Doxyfile; fi
+ - if [ "$TRAVIS_BRANCH" = "master" ]; then doxygen Doxyfile; fi
 # documentation deployment
 deploy:
   provider: pages
@@ -24,4 +24,4 @@ deploy:
   local_dir: docs/html
   github_token: $GH_REPO_TOKEN
   on:
-    branch: tests_preparations
+    branch: master
