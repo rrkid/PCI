@@ -1,3 +1,25 @@
+sudo: false
+
+branches:
+  only:
+    - master
+
+addons:
+  apt:
+    packages:
+      - doxygen
+
+script:
+  - doxygen Doxyfile
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: docs/html
+  github_token: $GH_REPO_TOKEN
+  on:
+    branch: master
+    
 language: python
 python:
  - "3.5"
@@ -11,3 +33,4 @@ install:
 script:
  - python tests/test.py
  - python tests/test_digits.py
+
