@@ -11,6 +11,8 @@ addons:
 
 script:
   - doxygen Doxyfile
+  - python tests/test.py
+  - python tests/test_digits.py
 
 deploy:
   provider: pages
@@ -29,8 +31,6 @@ python:
 # command to install dependencies
 install:
  - pip install -r requirements.txt
-# command to run tests
-script:
- - python tests/test.py
- - python tests/test_digits.py
+
+
 
