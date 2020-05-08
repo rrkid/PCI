@@ -3,6 +3,7 @@ import numpy as np
 import string
 import re
 from vowpalwabbit import pyvw
+from sklearn.model_selection import train_test_split
 
 phone = r'((8\D{0,2}9|7\D{0,2}9|9)\D{0,2}(\d\D{0,2}){9,9})'
 nik = r'(@\S*)'
