@@ -8,7 +8,21 @@ python:
 # command to install dependencies
 install:
  - pip install -r requirements.txt
-# command to run tests
+# doxygen package
+addons:
+  apt:
+    packages:
+      - doxygen
+# command to run tests and doxygen
 script:
  - python tests/test.py
  - python tests/test_digits.py
+ - if [ "$TRAVIS_BRANCH" = "master" ]; then doxygen Doxyfile; fi
+# documentation deployment
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: docs/html
+  github_token: $GH_REPO_TOKEN
+  on:
+    branch: master

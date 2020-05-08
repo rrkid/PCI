@@ -4,6 +4,8 @@
 /tmp/data
 /tmp/prepared_data
 /tmp/prepared_data_pro
+/tmp/predictions
+/tmp/prepared_vw
 /models/fitted_models
 /models/vectorizers
 /src/__pycache__
